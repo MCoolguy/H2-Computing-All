@@ -1,0 +1,15 @@
+db.tvModels.insert ([
+   { name: "Alice", age: 25, tags: ["outgoing", "family"], dim_in: [ 28,22,26 ] },
+   { name: "Belle", age: 31, tags: ["formal", "family", "plain"], dim_in: [ 32,26,29 ]},
+   { name: "Cindy", age: 13, tags: ["family", "formal"], dim_in: [ 19,18,17 ] },
+   { name: "Daisy", age: 75, tags: ["healthcare", "food"], dim_in: [ 38,40,43 ] },
+   { name: "Eleanor", age: 65, tags: ["food", "sports"], dim_in: [ 36,37,38 ] }
+])
+
+To query for all documents where the field tags value is an array with exactly two elements, "family" and "formal", in the specified order:
+
+To find an array that contains both the elements "family" and "formal", without regard to order or any other elements in the array, use the $all operator:
+
+To query for all documents where tags is an array that contains the string "family" as one of its elements:
+
+To query for all documents where the array dim_in contains at least one element whose value is greater than 25.

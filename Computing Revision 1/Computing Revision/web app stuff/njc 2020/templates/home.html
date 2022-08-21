@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Information database</title>
+</head>
+<body>
+<h1>HELLO</h1>
+<form action="{{ url_for('search') }}" method="POST" >
+    <label for="schoolname">Enter Name of School</label>
+    <input type="text" name="schoolname" required>
+    <label for="department">Enter Department</label>
+    <input type="text" name="department" required>
+    <input type="submit" value="Search">
+</form>
+
+</body>
+</html>

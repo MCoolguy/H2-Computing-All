@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<body>
+	{{cursor}}
+	<p>
+	<table border = 1px>
+		<tr>
+			<th>School</th>
+			<th>Name</th>
+			<th>Department</th>
+			<th>Contact</th>
+			<th>Address</th>
+		</tr>
+		{%for row in cursor%}
+			<tr>
+				{% for item in row %}
+				<td>{{item}}</td>
+				{% endfor %}
+			</tr>
+		{% endfor %}
+		
+
+
+
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<table>
+	<tr>
+		<th>Name of school</th>
+		<th>Department</th>
+	</tr>
+
+	<tr>
+		<form action = "{{url_for('generate_report') }}" , method = "post">
+			<td>
+				<input list = "list" name = "school">
+				<datalist id = "list">
+				<select name = "school">
+					{% for school in schools %}
+						<option value = "{{ school }}">
+					{%endfor%}
+				</select>
+				</datalist>
+			</td>
+			<td>
+				<input list = "html_elements" name = "department">
+				<datalist id = "html_elements">
+				<select name = "department" >
+				<option value = "Arts"></option>
+				<option value = "Science"></option>
+				<option value = "Math"></option>
+				</select>
+				</datalist>
+			</td>
+	</tr>
+	<tr>
+		<td colspan = '2'>
+			<input type = "submit">
+		</td>
+	</tr>
+</table>
+</form>
+</html>

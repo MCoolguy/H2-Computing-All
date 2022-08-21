@@ -1,0 +1,112 @@
+Canada,36.626
+Senegal,16.054
+Tunisia,11.495
+Dominican Republic,10.767
+Hungary,9.788
+Austria,8.592
+South Africa,55.436
+Venezuela,31.926
+Somalia,11.392
+Afghanistan,34.169
+China,1388.233
+Taiwan,23.405
+Viet Nam,95.415
+Uzbekistan,30.691
+Chad,14.965
+Spain,46.07
+Ukraine,44.405
+North Korea,25.405
+Paraguay,6.812
+Kyrgyzstan,6.125
+Honduras,8.305
+Ethiopia,104.345
+Kenya,48.467
+Tanzania,56.878
+Syria,18.907
+Turkey,80.418
+Uganda,41.653
+Lebanon,6.039
+Kazakhstan,18.064
+Burkina Faso,19.173
+Zambia,17.238
+Nigeria,191.836
+Japan,126.045
+Netherlands,17.033
+Myanmar,54.836
+Nepal,29.187
+Iraq,38.654
+El Salvador,6.167
+Greece,10.893
+Mozambique,29.538
+Sri Lanka,20.905
+Bulgaria,7.045
+Philippines,103.797
+Mali,18.69
+Cuba,11.39
+Libya,6.409
+South Sudan,13.096
+Bolivia,11.053
+Bangladesh,164.828
+Guatemala,17.005
+Egypt,95.215
+Argentina,44.272
+Sweden,9.921
+Benin,11.459
+U.S.,326.474
+Guinea,13.291
+India,1173.108
+Peru,32.166
+Algeria,41.064
+Ghana,28.657
+Serbia,8.777
+Pakistan,196.744
+Malaysia,31.164
+DR Congo,82.243
+Brazil,211.243
+Singapore,5.785
+Sierra Leone,6.733
+Niger,21.564
+Azerbaijan,9.974
+South Korea,50.705
+Italy,59.798
+Iran,80.946
+Germany,80.636
+Poland,38.564
+Haiti,10.983
+Rwanda,12.16
+U.K.,65.511
+Yemen,28.12
+Laos,7.038
+Belarus,9.459
+Cameroon,24.514
+United Arab Emirates,9.398
+Ecuador,16.626
+France,64.939
+Indonesia,263.51
+Jordan,7.877
+Tajikistan,8.858
+Czech Republic,10.555
+Thailand,68.298
+Portugal,10.265
+Chile,18.313
+Israel,8.323
+Morocco,35.241
+Sudan,42.166
+Cambodia,16.076
+Belgium,11.444
+Togo,7.692
+Papua New Guinea,7.934
+Colombia,49.068
+Mexico,130.223
+Madagascar,25.613
+Malawi,18.299
+Burundi,11.936
+Australia,24.642
+Nicaragua,6.218
+Romania,19.238
+Angola,26.656
+Zimbabwe,16.338
+Saudi Arabia,32.743
+Russia,143.375
+Switzerland,8.454
+Hong Kong,7.402

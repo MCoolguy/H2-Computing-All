@@ -1,0 +1,36 @@
+1.  FUNCTION Merge_Sort (ARRAY: arr) RETURNS ARRAY
+2.      n = SIZE(arr)
+3.      IF n < 2:
+4.          RETURN arr
+5.      END IF
+6.      left = Merge_Sort(PARTITION(arr, 0, n DIV 2))
+7.      right = Merge_Sort(PARTITION(arr, n DIV 2, n))
+8.      RETURN Merge(left, right)
+9.  END FUNCTION
+10.
+11. FUNCTION Merge (ARRAY: left, LIST: right)
+12.     DECLARE results: ARRAY[SIZE(left) + SIZE(right)]
+13.     DECLARE i, j, index : INTEGER
+14.     i, j, index = 0, 0, 0
+15.     WHILE i < SIZE(left) and j < SIZE(right)
+16.         IF left[i] < right[j]:
+17.             results[index] = left[i]
+18.             i = i + 1
+19.         ELSE:
+20.             results[index] = right[j]
+21.             j = j + 1
+22.         END IF
+23.         index = index + 1
+24.     END WHILE
+25.     WHILE i < SIZE(left)
+26.         results[index] = left[i]
+27.         i = i + 1
+28.         index = index + 1
+29.     END WHILE
+30.     WHILE j < SIZE(right)
+31.         results[index] = right[j]
+32.         j = j + 1
+33.         index = index + 1
+34.     END WHILE
+35.     RETURN results
+36. END FUNCTION

@@ -1,0 +1,26 @@
+-What kind of info to store in a table/entity?
+-Tenant runs business in PJ mall
+-Tenant business rents unit(s) in PJ mall
+-PJ mall has units for rents
+-Different types of units to rent out
+ 
+ 
+ 
+ 
+Transitive: If it applies between successive members of a sequence, it must also apply between any two members taken in order.
+			For instance, if A is larger than B, and B is larger than C, then A is larger than C.
+
+Entities:
+1.Tenant
+2.SHOP_UNIT
+3.UNIT_CATEGORY
+
+
+
+RENTAL-company name
+	  -unit and level
+	  -category
+	  -start
+	  -end
+	  
+TENANT(companyName,directorName,companyAddress,contactNumber,retail

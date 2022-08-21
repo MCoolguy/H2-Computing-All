@@ -1,0 +1,10 @@
+Felicia Lee,F,48,1.62
+Haz Awang,F,62,1.56
+Irene Neo,F,66,1.6
+Joyce Ng,F,58,1.67
+Mark Low,M,80,1.82
+Sandra Chelvan,F,54,1.58
+Seah Hon Hui,M,70,1.75
+Shawn Sandhu,M,70,1.72
+Tan Si Jie,F,46,1.55
+Zeng Jiamin,F,53,1.64
