@@ -1,0 +1,122 @@
+Albania 2.987,308
+American Samoa 0.066,211
+Angola 13.068,222
+Antarctica 0.001,273
+Antilles 0.229,83
+Argentina 41.343,176
+Aruba 0.105,119
+Azerbaijan 8.304,270
+Bahrain 0.738,321
+Barbados 0.286,53
+Belgium 10.423,337
+Benin 9.056,120
+Bhutan 0.7,238
+Bosnia and Herzegovina 4.622,265
+Brazil 201.103,240
+Brunei Darussalam 0.395,191
+Burkina Faso 16.242,23
+Cambodia 14.753,39
+Canada 33.76,196
+Cayman Islands 0.05,233
+Chad 10.543,369
+China 1330.141,111
+Cocosg Islands 0.001,238
+Comoros 0.773,366
+Dem. Rep. of the Congo 70.916,338
+Costa Rica 4.516,176
+Croatia 4.487,335
+Cyprus 1.103,274
+Denmark 5.516,334
+Dominica 0.073,59
+East Timor 1.155,207
+Egypt 80.472,149
+Equatorial Guinea 0.651,189
+Estonia 1.291,351
+Falkland Islands 0.003,56
+Fiji 0.945,14
+France 64.768,219
+French Polynesia 0.287,87
+Gambia 1.824,205
+Germany 82.283,351
+Gibraltar 0.029,175
+Greenland 0.058,167
+Guadeloupe 0.444,290
+Guatemala 13.55,168
+French Guiana 0.236,109
+Guinea-Bissau 1.565,143
+Guyana 0.748,241
+Honduras 7.989,91
+Hungary 9.992,362
+India 1173.108,113
+Iran 76.923,22
+Ireland 4.623,331
+Italy 58.091,143
+Jamaica 2.847,306
+Jersey 0.093,254
+Kazakhstan 15.46,295
+Kiribati 0.113,70
+South Korea 48.636,316
+Kuwait 2.789,257
+Lao People's  Dem Rep 6.994,261
+Lebanon 4.125,331
+Liberia 3.685,324
+Liechtenstein 0.035,241
+Luxembourg 0.498,321
+Macedonia 2.072,152
+Malawi 15.448,231
+Maldives 0.396,76
+Malta 0.407,123
+Marshall Islands 0.065,79
+Mauritania 3.205,290
+Mayotte 0.231,367
+Micronesia 0.107,289
+Moldova 4.317,350
+Mongolia 3.087,77
+Montserrat 0.005,326
+Mozambique 22.061,305
+Namibia 2.128,317
+Nepal 28.952,124
+Netherlands Antilles 0.229,140
+New Zealand 4.213,288
+Niger 15.878,129
+Niue 0.002,29
+Northern Mariana Islands 0.051,90
+Oman 2.968,23
+Palau 0.021,127
+Panama 3.411,218
+Paraguay 6.376,81
+Philippines 99.9,39
+Portugal 10.736,101
+Qatar 0.841,133
+Romania 21.959,339
+Rwanda 11.056,233
+Saint Barthelemy 0.007,89
+Saint Kitts and Nevis 0.05,94
+Saint Martin 0.03,44
+S Vincent & Grenadines 0.104,104
+San Marino 0.031,191
+Saudi Arabia 25.732,365
+Serbia 7.345,226
+Sierra Leone 5.246,27
+Slovakia 5.47,81
+Solomon Islands 0.596,2
+South Africa 49.109,27
+Sri Lanka 21.514,76
+Suriname 0.487,91
+Swaziland 1.354,196
+Switzerland 7.623,57
+Taiwan 23.025,240
+Tanzania 41.893,77
+East Timor 1.155,207
+Tokelau 0.001,353
+Trinidad & Tobago 1.229,30
+Turkey 77.804,272
+Turks and Caicos Islands 0.024,15
+Uganda 33.399,220
+United Arab Emirates 4.976,17
+Uruguay 3.51,9
+Vanuatu 0.219,368
+Venezuela 27.223,198
+British Virgin Islands 0.025,266
+Wallis and Futuna 0.015,127
+Yemen 23.495,138
