@@ -66,7 +66,7 @@ while guesscount<3:
 
 if won==False:
     DisplayGrid(grid)
-    newsocke.sendall("GAME OVER")
+    newsocket.sendall("GAME OVER")
         
     
     

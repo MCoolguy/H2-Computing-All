@@ -8,7 +8,7 @@ client_socket = socket.socket()
 #address = input('Enter IPv4 address of server: ')
 #port = int(input('Enter port number of server: '))
 address = '127.0.0.1'
-port = 12345
+port = 6789
 
 client_socket.connect((address, port))
 
