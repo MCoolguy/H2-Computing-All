@@ -1,0 +1,22 @@
+<html>
+<head>
+	<h1>Check-in</h1>
+</head>
+<form action="/check_in/{{ location_id }}" method="POST" >
+    <div class="row"><b>{{ location_id }}</div>
+    <div class="row">
+        <label>Name </label> <input name="Name" type="text"/>       
+    </div>
+    <div class="row">
+        <label>NRIC </label> <input name="NRIC" type="text"/>
+    </div>
+    <div class="row">
+        <label> Contact Number </label> <input name="Contact" type="text" />
+    </div>
+    <div class="row">
+        <button type="submit" /> Check In </button>
+        <button type="reset" /> Cancel </button>
+    </div>
+    
+</form>
+</html>
