@@ -1,5 +1,5 @@
 from flask import *
-app = Flash(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 
