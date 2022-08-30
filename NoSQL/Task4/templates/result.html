@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		table, tr, th, td{
+		border:  1px solid black;
+		border-collapse: collapse;
+		text-align: left;
+		width: 500px;
+	}
+	</style>
+</head>
+<body>
+	<table border-collapse: collapse>
+		<tr>
+			<th>Brand</th>
+			<th>Model</th>
+			<th>Colour</th>
+			<th>Price</th>
+		</tr>
+
+		{%for item in lst_of_phones %}
+		<tr>
+			<td>{{ item[0] }}</td>
+			<td>{{ item[1] }}</td>
+			<td>{{ item[2] }}</td>
+			<td>{{ item[3] }}</td>
+
+		</tr>
+		{%endfor%}
+	</table>
+</body>
+</html>

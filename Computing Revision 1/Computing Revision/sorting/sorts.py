@@ -77,6 +77,6 @@ def quicksort(list, low, high):
 testlist = [2,7,3,5,9,1,4,6,1,2,8]
 #insertionsort(testlist)
 #bubblesort(testlist)
-print(mergesort(testlist))
-#quicksort(testlist,0,len(testlist)-1)
-#print(testlist)
+#print(mergesort(testlist))
+quicksort(testlist,0,len(testlist)-1)
+print(testlist)
