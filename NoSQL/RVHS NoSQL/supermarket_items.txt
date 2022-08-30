@@ -1,0 +1,63 @@
+item_name, item_type, price
+Apples,Fruits,1.9
+Bananas,Fruits,1.5
+Berries,Fruits,0.4
+Grapes,Fruits,1.5
+Lemons,Fruits,0.2
+Lime,Fruits,0.2
+Melons,Fruits,1.4
+Nectarines,Fruits,0.2
+Oranges,Fruits,1.6
+Peaches,Fruits,0.2
+Pears,Fruits,0.8
+Plums,Fruits,1.4
+Strawberries,Fruits,1.4
+Watermelon,Fruits,0.1
+Asparagus,Vegetables,1.6
+Broccoli,Vegetables,0.4
+Cabbage,Vegetables,1.7
+Carrots,Vegetables,0.9
+Cauliflower,Vegetables,1.3
+Celery,Vegetables,1.8
+Corn,Vegetables,2.5
+Garlic,Vegetables,0.6
+Lettuce,Vegetables,0.8
+Mushrooms,Vegetables,0.2
+Onions,Vegetables,1.3
+Peppers,Vegetables,2.2
+Potato,Vegetables,1.4
+Squash,Vegetables,2.2
+Sweet Potato,Vegetables,0.9
+Tomatoes,Vegetables,2.4
+Zucchini,Vegetables,1.4
+Butter,Dairy,5.7
+Cheese,Dairy,4.8
+Cottage Cheese,Dairy,4.8
+Cream Cheese,Dairy,5.1
+Creamer,Dairy,2.7
+Eggs,Dairy,3.7
+Margarine,Dairy,5.9
+Milk,Dairy,4.3
+Sliced Cheese,Dairy,3.6
+Sour Cream,Dairy,2.3
+Yogurt,Dairy,3.4
+Anti-Bacterial Soap,Toiletries,5.5
+Deodorant,Toiletries,5.4
+Floss,Toiletries,9.7
+Lotion,Toiletries,7.1
+Mouthwash,Toiletries,6.4
+Petroleum Jelly,Toiletries,9.9
+Razors,Toiletries,5.5
+Shampoo,Toiletries,9.2
+Shaving Cream,Toiletries,4.8
+Soap,Toiletries,6.5
+Toothbrush,Toiletries,7.6
+Toothpaste,Toiletries,5.0
+Candy,Snacks,1.7
+Cookies,Snacks,1.9
+Crackers,Snacks,4.8
+Nuts,Snacks,2.2
+Popcorn,Snacks,4.4
+Potato Chips,Snacks,3.9
+Pretzels,Snacks,4.6
+Raisins,Snacks,4.5
