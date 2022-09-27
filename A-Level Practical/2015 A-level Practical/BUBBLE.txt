@@ -1,0 +1,16 @@
+FOR Pass = 1 TO ArraySize - 1
+  Posn = 1
+  REPEAT 
+    // the comparisons loop
+    NoSwaps = TRUE
+    IF Admissions[Posn] > Admissions[Posn + 1]
+      THEN
+        // swap
+        NoSwaps = FALSE
+        Temp = Admissions[Posn]
+        Admissions[Posn] = Admissions[Posn + 1]
+        Admissions[Posn + 1] = Temp
+    ENDIF
+    Posn = Posn + 1
+  UNTIL Posn = (ArraySize - Pass + 1) OR NoSwaps = TRUE
+ENDFOR
