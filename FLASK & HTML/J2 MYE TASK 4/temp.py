@@ -1,11 +1,6 @@
 import sqlite3
 results = []
-schoolname = "OUTRAM SECONDARY SCHOOL"
-con = sqlite3.connect("schools.db")
-cursor = con.execute("SELECT School.Name,School.Zone,School.Level,School.YearsOfStudy,Subject.SubjectName FROM School,Subject \
-                     WHERE School.SchoolID = Subject.SchoolID AND School.Name = ? ",(schoolname,))
+conn = sqlite3.connect("equipment.db")
+cursor = conn.execute("SELECT SerialNumber,Type FROM Device WHERE Location =?",("Office 51"))
 
 row = cursor.fetchall()
-for rows in row:
-    print(rows)
-
