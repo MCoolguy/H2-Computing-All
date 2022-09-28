@@ -1,0 +1,2 @@
+SELECT SerialNumber,Model,Location,DateCleaned
+FROM Monitor
