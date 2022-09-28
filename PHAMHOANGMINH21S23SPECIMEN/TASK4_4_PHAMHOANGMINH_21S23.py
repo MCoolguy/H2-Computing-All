@@ -1,21 +1,28 @@
 import flask
-from flask import Flask,render_template
+from flask import Flask,render_template,request
 import sqlite3
 
 
 app = Flask(__name__)
 
 @app.route('/')
-return render_template('home.html')
+def form():
+    return render_template("home.html")
 
-@app.route('/result')
-conn = sqlite3.connect('equipment.db')
-cursor = conn.cursor()
-templist = cursor.fetchall()
+@app.route('/results',methods = ['POST'])
+def results():
+    location = request.form['location']
+    conn = sqlite3.connect("equipment.db")
+    cursor = conn.execute("SELECT Device.SerialNumber,Device.Type FROM DEVICE WHERE Device.Location =?",(location,))
 
-return render_template('results.html',results = results)
-
-
+    row = cursor.fetchall()
+    serialnumbers = []
+    types = []
+    for count in range(len(row)-1):
+        serialnumbers.append(row[count][0])
+        types.append(row[count][1])
+        
+        
 
 
 
