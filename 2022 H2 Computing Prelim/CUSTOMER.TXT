@@ -1,0 +1,8 @@
+﻿Email,FirstName,LastName,ContactNumber,DOB,Address
+liu@gmail.com,Weiling,Liu,98654324,1988-03-01,461 West Coast Road #10-2445
+Sjtan@yahoo.com.sg,Si Jie,Chen,87123331,1981-03-24,123 Clementi Grove
+joyceng@singnet.com,Joyce,Ng,92233412,1981-06-03,1 Simei Ave #02-88
+queenfel@singnet.com.sg,Si Ying,Lee,97261020,1990-10-10,9 Novena Ridge #05-67
+sandra123@gmail.com,Sandra,Sandhu,92309877,1985-02-14,15 Chuan Road
+hazzy1987@yahoo.com,Haz,Awang,95620134,1990-10-10,8 Holland Village #28-01
+pradsm@gmail.com,Prad,Sharma,87211112,1988-08-08,3 Costa Rhu #01-05

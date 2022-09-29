@@ -1,0 +1,11 @@
+﻿ID,Email,StartDate,EndDate
+1,liu@gmail.com,2022-08-05,2022-08-07
+2,liu@gmail.com,2022-08-05,2022-08-09
+3,pradsm@gmail.com,2022-08-05,2022-08-09
+4,queenfel@singnet.com.sg,2022-08-05,2022-08-09
+5,joyceng@singnet.com,2022-08-05,2022-08-07
+6,queenfel@singnet.com.sg,2022-08-08,2022-08-10
+7,hazzy1987@yahoo.com,2022-08-08,2022-08-12
+8,liu@gmail.com,2022-08-10,2022-08-13
+9,sandra123@gmail.com,2022-08-10,2022-08-12
+10,queenfel@singnet.com.sg,2022-08-10,2022-08-15

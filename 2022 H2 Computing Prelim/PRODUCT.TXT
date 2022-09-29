@@ -1,0 +1,14 @@
+﻿CatalogueNumber,Category,Brand,Size,Fee
+1000,Top,Gucci,2,45
+1001,Top,Gucci,4,45
+1004,Top,Gucci,10,45
+1097,Pant,Kenzo,26,38
+1100,Pant,Kenzo,32,38
+1200,Skirt,DVF,2,30
+1103,Skirt,MCQ,4,30
+1299,Skirt,Chloe,6,30
+1015,Skirt,MCQ,8,30
+1118,Dress,Fendi,2,60
+1119,Dress,Fendi,4,60
+1120,Dress,Fendi,6,60
+1121,Dress,Fendi,8,60

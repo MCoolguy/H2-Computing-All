@@ -1,0 +1,16 @@
+CatalogueNumber,Type,Brand,Style,Colour,Rental,Size,Fabrication,Length,Breadth,Leather,Email
+1000,Apparel,Gucci,Top,Navy,45,2,Cotton,NA,NA,NA,wendy@hotmail.com
+1001,Apparel,Gucci,Top,Navy,45,4,Cotton,NA,NA,NA,praveen@gmail.com
+1004,Apparel,Gucci,Top,Navy,45,10,Cotton,NA,NA,NA,shawn@gmail.com
+1097,Apparel,Kenzo,Pant,Black,38,26,Polyester,NA,NA,NA,sijietan@yahoo.com
+1100,Apparel,Kenzo,Pant,Black,38,32,Polyester,NA,NA,NA,joycelee@singnet.com
+1200,Apparel,DVF,Skirt,Black,30,2,Cotton,NA,NA,NA,mark123@gmail.com
+1103,Apparel,MCQ,Skirt,Black,30,4,Cotton,NA,NA,NA,awanghazzy@hotmail.com
+1299,Apparel,Chloe,Skirt,Black,30,6,Cotton,NA,NA,NA,ruthpaul99@yahoo.com
+1015,Apparel,MCQ,Skirt,Black,30,8,Cotton,NA,NA,NA,jeanny@hotmail.com
+1399,Bag,Chanel,Shoulder,Black,75,NA,NA,300,120,TRUE,magicalcode@singnet.com
+1340,Bag,Chanel,Shoulder,White,75,NA,NA,300,120,TRUE,joycelee@singnet.com
+1355,Bag,Dior,Clutch,Gold,55,NA,NA,280,100,FALSE,ruthpaul99@yahoo.com
+1367,Bag,Dior,Tote,Multi,65,NA,NA,500,150,FALSE,wendy@hotmail.com
+1118,Apparel,Fendi,Dress,Red,60,2,Silk,NA,NA,NA,sijietan@yahoo.com
+1119,Apparel,Fendi,Dress,Red,60,4,Silk,NA,NA,NA,ashleysandhu@gmail.com
