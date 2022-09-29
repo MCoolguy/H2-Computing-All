@@ -1,0 +1,19 @@
+<html>
+    <title>STUDENT HEALTH RECORDS</title>
+    <body>
+        <table align='center' border='1px'>
+            <tr>
+                {%for heading in headers%}
+                <th>{{heading}}</th>
+                {%endfor%}
+            </tr>
+            {%for row in data%}
+            <tr>
+                {%for cell in row%}
+                <td>{{cell}}</td>
+                {%endfor%}
+            </tr>
+            {%endfor%}
+        </table>
+    </body>
+</html>
