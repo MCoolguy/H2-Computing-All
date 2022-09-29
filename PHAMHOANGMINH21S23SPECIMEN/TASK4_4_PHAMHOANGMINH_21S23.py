@@ -16,12 +16,13 @@ def results():
     cursor = conn.execute("SELECT Device.SerialNumber,Device.Type FROM DEVICE WHERE Device.Location =?",(location,))
 
     row = cursor.fetchall()
-    serialnumbers = []
-    types = []
-    for count in range(len(row)-1):
-        serialnumbers.append(row[count][0])
-        types.append(row[count][1])
+    data = []
+    headings = ('serialnumber','type')
+    for count in range(len(row)):
+        data.append([row[count][0],row[count][1]])
+
         
+    return render_template('results.html',headings = headings,data = data)
         
 
 
