@@ -1,5 +1,5 @@
 import flask
-from flask import Flask,render_template,url_for
+from flask import Flask,render_template,url_for,request
 import sqlite3
 
 app = Flask(__name__)
@@ -51,9 +51,34 @@ def stats():
     
     return render_template("stats.html",headers = headers,averageMweight = averageMweight,averageFweight = averageFweight,averageMheight=averageMheight,averageFheight=averageFheight,femaleNo=femaleNo,maleNo=maleNo)
 
-@app.route('/addrecord')
+@app.route('/addrecordform')
+def addrecordform():
+    return render_template("addrecordform.html")
+
+@app.route('/addrecord',methods = ['POST'])
 def addrecord():
-    return render_template("addrecord.html")
+    name = request.form['name']
+    gender = request.form['gender']
+    studentid = request.form['studentid']
+    weight = request.form['weight']
+    height = request.form['height']
+    
+    
+    
+    headers = ('name','gender','studentid','weight','height')
+    
+    conn = sqlite3.connect("students.db")
+    conn.execute("INSERT INTO Student(Name,Gender) VALUES(?,?)",(name,gender))
+    conn.execute("INSERT INTO StudentHealthRecord(StudentID,Weight,Height) VALUES(?,?,?)",(studentid,weight,height))
+    conn.commit()
+
+    
+    
+    return render_template('addrecord.html',headers = headers,name=name,gender=gender,studentid=studentid,height=height,weight=weight)
+    
+    
+
+
 
 
 
