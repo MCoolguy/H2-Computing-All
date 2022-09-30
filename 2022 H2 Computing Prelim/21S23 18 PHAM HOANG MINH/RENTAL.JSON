@@ -1,0 +1,50 @@
+[
+	{
+	"catalogueNumber": 1000,
+	"brand": "Fendi",
+	"category": "apparel",
+	"rental": 40,
+	"size": 6,
+	"email": "marychia@gmail.com",
+	"startDate": "2022-01-03",
+	"endDate": "2022-01-05"
+	},
+	{
+	"catalogueNumber": 1371,
+	"brand": "Mc Queen",
+	"category": "apparel",
+	"rental": 45,
+	"size": 4,
+	"email": "lee1969rocks@gmail.com",
+	"startDate": "2022-01-03",
+	"endDate": "2022-01-09"
+	},
+	{
+	"catalogueNumber": 1266,
+	"brand": "Chanel",
+	"category": "bag",
+	"rental": 75,
+	"email": "lee1969rocks@gmail.com",
+	"startDate": "2022-01-03",
+	"endDate": "2022-01-09"
+	},
+	{
+	"catalogueNumber": 1182,
+	"brand": "Mc Queen",
+	"category": "apparel",
+	"rental": 80,
+	"size": 8,
+	"email": "feliciaxoxo@yahoo.com",
+	"startDate": "2022-01-05",
+	"endDate": "2022-01-08"
+	},
+	{
+	"catalogueNumber": 1375,
+	"brand": "Gucci",
+	"category": "bag",
+	"rental": 50,
+	"email": "feliciaxoxo@yahoo.com",
+	"startDate": "2022-01-05",
+	"endDate": "2022-01-08"
+	}
+]
