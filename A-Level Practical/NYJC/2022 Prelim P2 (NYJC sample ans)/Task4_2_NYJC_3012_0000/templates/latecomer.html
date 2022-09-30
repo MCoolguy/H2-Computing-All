@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Task 4_2_NYJC_3012_0000</title>
+	</head>
+	<body>
+	<h1>Latecomers</h1>
+	{% if result %}
+		<table>
+		<tr>
+			<th>Name</th><th>Date</th><th>Time</th>
+		</tr>
+		{% for row in result %}
+		<tr>
+			<td>{{row[0]}}</td>
+			<td>{{row[1]}}</td>
+			<td>{{row[2]}}</td>
+		</tr>
+		{% endfor %}
+		</table>
+	{% else %}
+		<p>There are no latecomers.</p>
+	{% endif %}
+</html>

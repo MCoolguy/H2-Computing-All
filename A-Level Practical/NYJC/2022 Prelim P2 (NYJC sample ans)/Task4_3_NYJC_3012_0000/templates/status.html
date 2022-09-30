@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Task 4_3_NYJC_3012_0000</title>
+	</head>
+	<body>
+	<h1>Submission status</h1>
+	{% if status == 'success' %}
+		<p>Record successfully added.</p>
+	{% elif status == 'failure' %}
+		<p>Record could not be added!</p>
+	{% endif %}
+	
+	<b>Record details</b>
+	<table>
+	<tr>
+		<th>Visitor ID:</th>
+		<td>{{record['visitorId']}}</td>
+	</tr>
+	<tr>
+		<th>Date:</th>
+		<td>{{record['Date']}}</td>
+	</tr>
+	<tr>
+		<th>Time:</th>
+		<td>{{record['Time']}}</td>
+	</tr>
+	<tr>
+		<th>Direction:</th>
+		<td>{{record['Type']}}</td>
+	</tr>
+	</table>
+    </body>
+</html>

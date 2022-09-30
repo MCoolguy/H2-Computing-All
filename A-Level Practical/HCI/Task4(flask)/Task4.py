@@ -68,14 +68,18 @@ def addrecord():
     headers = ('name','gender','studentid','weight','height')
     
     conn = sqlite3.connect("students.db")
+    cursor = conn.cursor()
+    studentIDs = []
+    cursor.execute("SELECT StudentID from StudentHealthRecord")
+    studentIDs = cursor.fetchall()
+    if (int(studentid),) in studentIDs:
+        return "StudentID already exists in database"
+
     conn.execute("INSERT INTO Student(Name,Gender) VALUES(?,?)",(name,gender))
     conn.execute("INSERT INTO StudentHealthRecord(StudentID,Weight,Height) VALUES(?,?,?)",(studentid,weight,height))
     conn.commit()
-
-    
-    
     return render_template('addrecord.html',headers = headers,name=name,gender=gender,studentid=studentid,height=height,weight=weight)
-    
+
     
 
 
