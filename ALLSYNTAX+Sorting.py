@@ -81,7 +81,7 @@ testlist = [7,5,6,9,3,2,1,1,1,3,2,4,5,9,99,12,0,4,8,-2,0]
 
 
 #FLASK
-'''
+
 from flask import *
 app = Flask(__name__,template_folder = 'templatefoldername')
 @app.route('/')
@@ -93,26 +93,26 @@ def form():
     return render_template('form.html')
 if __name__ =='__main__':
     app.run(port=1234)
-'''
+
 
 ###SQL
-'''
+
 import sqlite3
 conn = sqlite3.connect('databasename.db')
 conn.execute('INSERT INTO Table(Name,Gender,Age)VALUES(?,?,?)',('Bobby','Male',18))
 conn.commit()
 conn.close()
-'''
+
 
 ###NOSQL
-'''
+
 import pymongo 
 client = pymongo.MongoClient('127.0.0.1',27017)
 if 'database_name' in client.get_database_names(): #Check if database exists already
     client.drop_database('database_name')
 db = client['database_names']  #Create new database
 
-if 'collection_name' in db.get_collection_names(): 
+if 'collection_name' in db.list_collection_names(): 
     db.drop_collection('collection_name') #Not necessary if dropped database earlier
 coll = db['collection_name']  #Create new collection
 
@@ -123,9 +123,9 @@ coll.insert_many([{item_name:"Bananas",item_type:'Fruit',item_price:'9.2'},
                          
                          
 item_name = input("Type an item name: ")     
-result = coll.find({'item_name':itemname})            
+result = coll.find({'item_name':item_name})            
 for doc in result:
-    print(itemname +" each cost $" +doc['price'])
+    print(item_name +" each cost $" +doc['price'])
 
     
 updateitem = input("Type an item name you want to update price: ")
@@ -135,9 +135,8 @@ update = {'$set':{'price':updateprice}}
 coll.update_many(search, update)    
 
 client.close()
-'''
 
-'''
+
 import socket #SERVER
 
 listen_socket = socket.socket()
@@ -158,10 +157,10 @@ client_socket = socket.socket()
 client_socket.connect(('127.0.0.1',6789))
 
 message = client_socket.recv(1024)
-choice = input("Enter choice: )
+choice = input("Enter choice: ")
 client_socket.sendall(choice.encode())
 
 client_socket.close()
-'''
+
 
 
