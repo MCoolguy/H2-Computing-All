@@ -7,14 +7,16 @@ def bubblesort(list1):
     print(list1) 
     
     
-def insertionsort(list1):
-    for i in range(1,len(list1)):
-        j = i 
-        while j>0 and list1[j-1]>list1[j]:
-            list1[j-1],list1[j] = list1[j],list1[j-1]
-            j -=1   
-              
-    print(list1)
+def insertionsort(lst):
+    for i in range(1,len(lst)):
+        key = lst[i]
+        j = i-1
+        while j>=0 and key<lst[j]: #j is index before i (if lst[i]<lst[i-1])
+            lst[j+1] = lst[j]
+            j-=1
+        lst[j+1] = key
+        
+    return lst
             
             
 def merge(left,right):

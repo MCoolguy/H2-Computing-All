@@ -1,6 +1,8 @@
 import pymongo
 
 client = pymongo.MongoClient("127.0.0.1", 27017)
+if "supermarket" in client.list_database_names():
+    client.drop_database('supermarket')
 db = client["supermarket"]
 if "items" in db.list_collection_names():
         db.drop_collection("items")
