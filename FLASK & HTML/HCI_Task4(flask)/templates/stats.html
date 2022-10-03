@@ -1,0 +1,28 @@
+<html>
+    <title>STATISTICS</title>
+    <body>
+        <table align ='center' border = '1px'>
+            <tr>
+                {%for headings in headers%}
+                <th>{{headings}}</th>
+                {%endfor%}
+            </tr>
+            <tr>
+                <td>Amount</td>
+                <td>{{maleNo}}</td>
+                <td>{{femaleNo}}</td>
+            </tr>
+            <tr>
+                <td>Average Height</td>
+                <td>{{averageMheight}}</td>
+                <td>{{averageFheight}}</td>
+            </tr>
+            <tr>
+                <td>Average Weight</td>
+                <td>{{averageMweight}}</td>
+                <td>{{averageFweight}}</td>
+            </tr>
+        </table>
+
+    </body>
+<html>

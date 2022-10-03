@@ -1,0 +1,26 @@
+<html>
+    <h1>Submission status</h1>
+    {%if status=='success'%}
+        <h2>Added successfully</h2>
+    {%elif status =='failure'%}
+        <h2>Added unsuccessfully</h2>
+    {%endif%}
+
+    <h1>Submission details: </h1>
+    <table border='1px'>
+        <tr>
+            {%for headings in headers%}
+            <th>{{headings}}</th>
+            {%endfor%}
+        </tr>
+        <tr>
+            <td>{{visitorID}}</td>
+            <td>{{direction}}</td>
+            <td>{{time}}</td>
+            <td>{{date}}</td>
+        </tr>
+    </table>
+
+
+
+</html>

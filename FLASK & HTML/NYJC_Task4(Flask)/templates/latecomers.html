@@ -1,0 +1,18 @@
+<html>
+    <table align = 'center' border='1px'>
+        <tr>
+            {%for headings in headers%}
+            <th>{{headings}}</th>
+            {%endfor%}
+        </tr>
+        {%for row in data%}
+        <tr>
+            {%for cell in row%}
+            <td>{{cell}}</td>
+            {%endfor%}
+        </tr>
+        {%endfor%}
+    </table>
+
+
+</html>
