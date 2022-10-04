@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>Round {{round}}</title>
+</head>
+
+<body>
+	<table>
+	<h1>Round {{round}}</h1>
+	<tr>
+	<th>Competitor Name</th>
+	<th>Score</th>
+	</tr>
+	{% for tuple in rows%}
+	<tr>
+		<td>{{ tuple[0] }}</td>
+		<td>{{ tuple[1] }}</td>
+	</tr>
+	{% endfor %}
+	</table>
+
+	<p><a href="{{url_for('home')}}">Back</a></p>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+<table align ='center' border='1px'>
+    <tr>
+        <th>Name</th>
+        <th>Mean Score</th>
+    </tr>
+    {%for item in data%}
+    <tr>
+    {%for cell in item%}
+    <td>{{cell}}</td>
+    {%endfor%}
+    </tr>
+    {%endfor%}
+
+
+
+</table>
+<h3><a href="{{url_for('home')}}"/>Back</h3>
+
+</html>
